@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0E92AF71B6C517700D172E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E92AF61B6C517700D172E5 /* main.m */; };
+		D0E92AFA1B6C517700D172E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E92AF91B6C517700D172E5 /* AppDelegate.m */; };
+		D0E92AFD1B6C517700D172E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E92AFC1B6C517700D172E5 /* ViewController.m */; };
+		D0E92B001B6C517700D172E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E92AFE1B6C517700D172E5 /* Main.storyboard */; };
+		D0E92B021B6C517700D172E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E92B011B6C517700D172E5 /* Images.xcassets */; };
+		D0E92B051B6C517700D172E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0E92B031B6C517700D172E5 /* LaunchScreen.xib */; };
+		D0E92B111B6C517700D172E5 /* OMTelephoneLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E92B101B6C517700D172E5 /* OMTelephoneLabelDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0E92B0B1B6C517700D172E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0E92AE91B6C517700D172E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0E92AF01B6C517700D172E5;
+			remoteInfo = OMTelephoneLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0E92AF11B6C517700D172E5 /* OMTelephoneLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMTelephoneLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E92AF51B6C517700D172E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E92AF61B6C517700D172E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0E92AF81B6C517700D172E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0E92AF91B6C517700D172E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0E92AFB1B6C517700D172E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D0E92AFC1B6C517700D172E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0E92AFF1B6C517700D172E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0E92B011B6C517700D172E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0E92B041B6C517700D172E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D0E92B0A1B6C517700D172E5 /* OMTelephoneLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMTelephoneLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E92B0F1B6C517700D172E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E92B101B6C517700D172E5 /* OMTelephoneLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OMTelephoneLabelDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0E92AEE1B6C517700D172E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E92B071B6C517700D172E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0E92AE81B6C517700D172E5 = {
+			isa = PBXGroup;
+			children = (
+				D0E92AF31B6C517700D172E5 /* OMTelephoneLabelDemo */,
+				D0E92B0D1B6C517700D172E5 /* OMTelephoneLabelDemoTests */,
+				D0E92AF21B6C517700D172E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0E92AF21B6C517700D172E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0E92AF11B6C517700D172E5 /* OMTelephoneLabelDemo.app */,
+				D0E92B0A1B6C517700D172E5 /* OMTelephoneLabelDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0E92AF31B6C517700D172E5 /* OMTelephoneLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D0E92AF81B6C517700D172E5 /* AppDelegate.h */,
+				D0E92AF91B6C517700D172E5 /* AppDelegate.m */,
+				D0E92AFB1B6C517700D172E5 /* ViewController.h */,
+				D0E92AFC1B6C517700D172E5 /* ViewController.m */,
+				D0E92AFE1B6C517700D172E5 /* Main.storyboard */,
+				D0E92B011B6C517700D172E5 /* Images.xcassets */,
+				D0E92B031B6C517700D172E5 /* LaunchScreen.xib */,
+				D0E92AF41B6C517700D172E5 /* Supporting Files */,
+			);
+			path = OMTelephoneLabelDemo;
+			sourceTree = "<group>";
+		};
+		D0E92AF41B6C517700D172E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0E92AF51B6C517700D172E5 /* Info.plist */,
+				D0E92AF61B6C517700D172E5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0E92B0D1B6C517700D172E5 /* OMTelephoneLabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0E92B101B6C517700D172E5 /* OMTelephoneLabelDemoTests.m */,
+				D0E92B0E1B6C517700D172E5 /* Supporting Files */,
+			);
+			path = OMTelephoneLabelDemoTests;
+			sourceTree = "<group>";
+		};
+		D0E92B0E1B6C517700D172E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0E92B0F1B6C517700D172E5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0E92AF01B6C517700D172E5 /* OMTelephoneLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E92B141B6C517700D172E5 /* Build configuration list for PBXNativeTarget "OMTelephoneLabelDemo" */;
+			buildPhases = (
+				D0E92AED1B6C517700D172E5 /* Sources */,
+				D0E92AEE1B6C517700D172E5 /* Frameworks */,
+				D0E92AEF1B6C517700D172E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OMTelephoneLabelDemo;
+			productName = OMTelephoneLabelDemo;
+			productReference = D0E92AF11B6C517700D172E5 /* OMTelephoneLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0E92B091B6C517700D172E5 /* OMTelephoneLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E92B171B6C517700D172E5 /* Build configuration list for PBXNativeTarget "OMTelephoneLabelDemoTests" */;
+			buildPhases = (
+				D0E92B061B6C517700D172E5 /* Sources */,
+				D0E92B071B6C517700D172E5 /* Frameworks */,
+				D0E92B081B6C517700D172E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0E92B0C1B6C517700D172E5 /* PBXTargetDependency */,
+			);
+			name = OMTelephoneLabelDemoTests;
+			productName = OMTelephoneLabelDemoTests;
+			productReference = D0E92B0A1B6C517700D172E5 /* OMTelephoneLabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0E92AE91B6C517700D172E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "macbook air";
+				TargetAttributes = {
+					D0E92AF01B6C517700D172E5 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D0E92B091B6C517700D172E5 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D0E92AF01B6C517700D172E5;
+					};
+				};
+			};
+			buildConfigurationList = D0E92AEC1B6C517700D172E5 /* Build configuration list for PBXProject "OMTelephoneLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0E92AE81B6C517700D172E5;
+			productRefGroup = D0E92AF21B6C517700D172E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0E92AF01B6C517700D172E5 /* OMTelephoneLabelDemo */,
+				D0E92B091B6C517700D172E5 /* OMTelephoneLabelDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0E92AEF1B6C517700D172E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E92B001B6C517700D172E5 /* Main.storyboard in Resources */,
+				D0E92B051B6C517700D172E5 /* LaunchScreen.xib in Resources */,
+				D0E92B021B6C517700D172E5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E92B081B6C517700D172E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0E92AED1B6C517700D172E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E92AFD1B6C517700D172E5 /* ViewController.m in Sources */,
+				D0E92AFA1B6C517700D172E5 /* AppDelegate.m in Sources */,
+				D0E92AF71B6C517700D172E5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E92B061B6C517700D172E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E92B111B6C517700D172E5 /* OMTelephoneLabelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0E92B0C1B6C517700D172E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0E92AF01B6C517700D172E5 /* OMTelephoneLabelDemo */;
+			targetProxy = D0E92B0B1B6C517700D172E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0E92AFE1B6C517700D172E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E92AFF1B6C517700D172E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0E92B031B6C517700D172E5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E92B041B6C517700D172E5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0E92B121B6C517700D172E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0E92B131B6C517700D172E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0E92B151B6C517700D172E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OMTelephoneLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0E92B161B6C517700D172E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OMTelephoneLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0E92B181B6C517700D172E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OMTelephoneLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OMTelephoneLabelDemo.app/OMTelephoneLabelDemo";
+			};
+			name = Debug;
+		};
+		D0E92B191B6C517700D172E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OMTelephoneLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OMTelephoneLabelDemo.app/OMTelephoneLabelDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0E92AEC1B6C517700D172E5 /* Build configuration list for PBXProject "OMTelephoneLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E92B121B6C517700D172E5 /* Debug */,
+				D0E92B131B6C517700D172E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E92B141B6C517700D172E5 /* Build configuration list for PBXNativeTarget "OMTelephoneLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E92B151B6C517700D172E5 /* Debug */,
+				D0E92B161B6C517700D172E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0E92B171B6C517700D172E5 /* Build configuration list for PBXNativeTarget "OMTelephoneLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E92B181B6C517700D172E5 /* Debug */,
+				D0E92B191B6C517700D172E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0E92AE91B6C517700D172E5 /* Project object */;
+}
