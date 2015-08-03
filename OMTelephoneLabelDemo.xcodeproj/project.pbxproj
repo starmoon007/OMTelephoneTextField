@@ -14,6 +14,8 @@
 		D0E92B021B6C517700D172E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E92B011B6C517700D172E5 /* Images.xcassets */; };
 		D0E92B051B6C517700D172E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0E92B031B6C517700D172E5 /* LaunchScreen.xib */; };
 		D0E92B111B6C517700D172E5 /* OMTelephoneLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E92B101B6C517700D172E5 /* OMTelephoneLabelDemoTests.m */; };
+		D0E92B1F1B6C5A2E00D172E5 /* OMTelephoneTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E92B1E1B6C5A2E00D172E5 /* OMTelephoneTextField.m */; };
+		D0E92B211B6DC1A100D172E5 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E92B201B6DC1A100D172E5 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		D0E92B0A1B6C517700D172E5 /* OMTelephoneLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMTelephoneLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E92B0F1B6C517700D172E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0E92B101B6C517700D172E5 /* OMTelephoneLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OMTelephoneLabelDemoTests.m; sourceTree = "<group>"; };
+		D0E92B1D1B6C5A2E00D172E5 /* OMTelephoneTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMTelephoneTextField.h; sourceTree = "<group>"; };
+		D0E92B1E1B6C5A2E00D172E5 /* OMTelephoneTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMTelephoneTextField.m; sourceTree = "<group>"; };
+		D0E92B201B6DC1A100D172E5 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +90,10 @@
 				D0E92AF91B6C517700D172E5 /* AppDelegate.m */,
 				D0E92AFB1B6C517700D172E5 /* ViewController.h */,
 				D0E92AFC1B6C517700D172E5 /* ViewController.m */,
+				D0E92B1D1B6C5A2E00D172E5 /* OMTelephoneTextField.h */,
+				D0E92B1E1B6C5A2E00D172E5 /* OMTelephoneTextField.m */,
 				D0E92AFE1B6C517700D172E5 /* Main.storyboard */,
+				D0E92B201B6DC1A100D172E5 /* 1.png */,
 				D0E92B011B6C517700D172E5 /* Images.xcassets */,
 				D0E92B031B6C517700D172E5 /* LaunchScreen.xib */,
 				D0E92AF41B6C517700D172E5 /* Supporting Files */,
@@ -202,6 +210,7 @@
 				D0E92B001B6C517700D172E5 /* Main.storyboard in Resources */,
 				D0E92B051B6C517700D172E5 /* LaunchScreen.xib in Resources */,
 				D0E92B021B6C517700D172E5 /* Images.xcassets in Resources */,
+				D0E92B211B6DC1A100D172E5 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +230,7 @@
 			files = (
 				D0E92AFD1B6C517700D172E5 /* ViewController.m in Sources */,
 				D0E92AFA1B6C517700D172E5 /* AppDelegate.m in Sources */,
+				D0E92B1F1B6C5A2E00D172E5 /* OMTelephoneTextField.m in Sources */,
 				D0E92AF71B6C517700D172E5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

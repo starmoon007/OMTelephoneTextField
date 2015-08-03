@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "OMTelephoneTextField.h"
+#import <CoreText/CoreText.h>
+
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet OMTelephoneTextField *telephone_textField;
 
 @end
 
@@ -16,12 +21,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+//    self.telephone_textField.userInteractionEnabled = YES;
+    
+    self.telephone_textField.font = [UIFont systemFontOfSize:14];
+    
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (void)change{
+//    NSLog(@"%@",self.telephone_textField.attributedText);
 }
+
+
+
+
 
 @end
